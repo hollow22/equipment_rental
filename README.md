@@ -8,7 +8,7 @@ Setup guide：
 
 1. Start Xammp Control Panel
 
-2) Move the equipment_rental file to "htdocs folder" in xammp folder. (Eg  C:\xampp_new\htdocs\equipment_rental)
+2) Download and move the equipment_rental file to "htdocs folder" in xammp folder. (Eg  C:\xampp_new\htdocs\equipment_rental)
 
 
 3) Start Apache and MySQL modules in the Xammp control panel
