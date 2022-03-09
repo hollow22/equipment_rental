@@ -77,12 +77,13 @@ if ($errors == 0 && isset($_POST['day'])) {
         
 		$Email_db = $_SESSION['email'];
 		#Update rent date from the start rent table
-        $sql = "UPDATE available_rental SET end_date = '$new_end_date' where rentID = '$RentID'";
+        	$sql = "UPDATE available_rental SET end_date = '$new_end_date' where rentID = '$RentID'";
 		$qRes = @mysqli_query($conn, $sql) ;
 		
 
 		#Update rent history table
-        $sql = "UPDATE rent_history SET end_date = '$new_end_date' where rentID = '$RentID'";
+        	$sql = "UPDATE rent_history SET end_date = '$new_end_date' where rentID = '$RentID'";
+	    	$qRes = @mysqli_query($conn, $sql) ;
 		
 		$extend_cost_per_day = $_GET['extend'];
 		$extend_cost = $extend_cost_per_day * $day;
