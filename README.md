@@ -25,3 +25,10 @@ Setup complete.
 
 To start using the web application:
 Click on UserLogin.php or UserRegister.php.
+
+Functionalities:
+
+Admin user - List a product 
+
+
+Regular user - Rent a product, return a product, extend rent date a product.
