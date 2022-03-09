@@ -28,7 +28,7 @@ Click on UserLogin.php or UserRegister.php.
 
 Functionalities:
 
-Admin user - List a product 
+Admin user - List a product, view all available products, view all unavailable products.
 
 
-Regular user - Rent a product, return a product, extend rent date a product.
+Regular user - Rent a product, return a product, extend rent date a product, view rented items, view rent history.
