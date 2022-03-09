@@ -213,25 +213,28 @@ foreach ($items as $item) {
 		echo " <td>" . htmlentities($item['regular_cost']) . "</td>\n";
 		echo " <td>" . htmlentities($item['extend_cost']) . "</td>\n";
 		echo " <td>" . htmlentities($item['status']);
+		
 		#echo "rent ID: " . $item['rentID'];
 			
 		#echo "<button class='open-button' onclick='openForm()'>Rent</button>\n";
-	
+		if ($item['status'] == "Available")
+		{
 		?>
 		<form action="request_rent.php?" method="get">
 		<input type='hidden' value = '<?php echo $item['rentID']; ?>' name = 'rentID'>
 		<input type='hidden' value = '<?php echo $item['category']; ?>' name = 'category'>
 		<input type='hidden' value = '<?php echo $item['brand']; ?>' name = 'brand'>
-		 <input type='hidden' value = '<?php echo $item['regular_cost']; ?>' name = 'regular'> 
+		<input type='hidden' value = '<?php echo $item['regular_cost']; ?>' name = 'regular'> 
 		<input type='hidden' value = '<?php echo $item['extend_cost'];?>' name = 'extend'> 
 		
 		<input type ="submit" value = "Rent" class='open-button'> </td>
 		
 		</form>
 		   
-<?php
+		<?php
+		}
 	}
-}
+  }
 }
 echo "</table>\n";
 
