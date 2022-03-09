@@ -1,7 +1,7 @@
 # equipment_rental
 A web server to rent and return equipment for all user
 
-Software required: Xammp
+Software required: Xammp version 8.1.2
 Download from https://www.apachefriends.org/download.html
 
 Setup guide：
