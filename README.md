@@ -27,6 +27,7 @@ To start using the web application:
 Click on UserLogin.php or UserRegister.php.
 
 Functionalities:
+Create admin account, Create regular user account
 
 Admin user - List a product, view all available products, view all unavailable products.
 
