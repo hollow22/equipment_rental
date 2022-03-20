@@ -17,7 +17,7 @@ Setup guide：
 4) Enter "localhost/equipment_rental" in the browser address.
 
 
-5) Click on "createdb.php"	"createtables.php" Respectively
+5) Click on "createdb.php"	"createtables.php" Respectively to create database tables 
 
 
 
